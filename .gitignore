@@ -1,10 +1,26 @@
 # Python-generated files
 __pycache__/
 *.py[oc]
+test.db
 build/
 dist/
 wheels/
+.env
 *.egg-info
 
 # Virtual environments
 .venv
+
+cat >> .gitignore << 'EOF'
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
