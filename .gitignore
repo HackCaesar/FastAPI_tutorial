@@ -11,7 +11,6 @@ wheels/
 # Virtual environments
 .venv
 
-cat >> .gitignore << 'EOF'
 # IDE
 .vscode/
 .idea/
